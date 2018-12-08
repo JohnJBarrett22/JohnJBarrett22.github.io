@@ -16,7 +16,7 @@ nexmo.calls.create({
     type: 'phone',
     number: "13603268359" // your virtual number
     },
-    answer_url: ['https://nexmo-community.github.io/ncco-examples/first_call_talk.json']
+    answer_url: ['https://github.com/JohnJBarrett22/JohnJBarrett22.github.io/call.json']
     }, (err, res) =>{
     if(err) { console.error(err) ; }
     else { console.log(res); }
